@@ -6,7 +6,27 @@
 <!--<![endif]-->
 
 <head>
-    <title>Murtaza Aftab Hussain</title>
+    <title>Steven Ho</title>
+	
+<!-- 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $("#btnPrint").live("click", function () {
+            var divContents = $("#dvContainer").html();
+            var printWindow = window.open('', '', 'height=400,width=800');
+            printWindow.document.write('<html><head><title>DIV Contents</title>');
+			printWindow.document.write('<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.css" />');
+			printWindow.document.write('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />');
+			printWindow.document.write('<link rel="stylesheet" href="assets/css/styles-6.css" />');
+
+            printWindow.document.write('</head><body >');
+            printWindow.document.write(divContents);
+            printWindow.document.write('</body></html>');
+            printWindow.document.close();
+            printWindow.print();
+        });
+    </script> -->
+
+	
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,55 +52,58 @@
 </head>
 
 <body>
+    <form id="form1">
+    <div id="dvContainer">
     <div class="wrapper">
         <div class="sidebar-wrapper">
             <div class="profile-container">
                 <img class="profile" src="assets/images/profile.jpg" alt="" />
-                <h1 class="name">Murtaza Aftab Hussain</h1>
-                <h3 class="tagline">Senior Software Engineer</h3>
+                <h1 class="name">Ho Kam Tim</h1>
+                <h2 class="tagline">Steven</h2>
             </div>
             <!--//profile-container-->
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
                     <li class="email">
                         <i class="fa fa-envelope"></i>
-                        <a href="mailto: mudza100@gmail.com">mudza100@gmail.com</a>
+                        <a href="mailto: u3575404@connect.hku.hk">u3575404@connect.hku.hk</a>
                     </li>
                     <li class="phone">
                         <i class="fa fa-phone"></i>
-                        <a href="tel:+60149439704">+60 14 9439704 </a>
+                        <a href="tel:+852 62715443">+852 62715443 </a>
                     </li>
-                    <li class="phone">
-                        <i class="fa fa-phone"></i>
-                        <a href="tel:+923323239752">+92 332 3239752</a>
+
+                    <li class="website">
+                        <i class="fa fa-globe" style="padding-right: 3px"></i>
+                        <a href="https://ho-steven.github.io" target="_blank">https://ho-steven.github.io/</a>
                     </li>
                     <li class="website">
-                        <i class="fab fa-stack-overflow" style="padding-right: 3px"></i>
-                        <a href="#" target="_blank">​stackoverflow.com/story/murtaza-aftab-hussain</a>
-                    </li>
-                    <li class="linkedin">
-                        <i class="fab fa-linkedin"></i>
-                        <a href="#" target="_blank">linkedin.com/in/murtazanathani</a>
-                    </li>
-                    <li class="github">
-                        <i class="fab fa-github"></i>
-                        <a href="#" target="_blank">github.com/m-nathani</a>
-                    </li>
+                        <p><i class="fas fa-address-card" style="padding-right: 3px"></i>
+                        Flat G, 10/F, Kwong Sang Hong Building Block B, 6 Heard Street, Wan Chai, Hong Kong</p>
+                    </li>					
+
                 </ul>
             </div>
             <!--//education-container-->
             <div class="education-container container-block">
                 <h2 class="container-block-title">Education</h2>
                 <div class="item">
-                    <h4 class="degree">BS in Computer Science</h4>
-                    <h5 class="meta">National University of Computer and Emerging Sciences</h5>
-                    <div class="time">2010 - 2014</div>
+                    <h4 class="degree">MSc in Computer Science </br>(Financial Computing Stream)</h4>
+                    <h5 class="meta">The University of Hong Kong</h5>
+                    <div class="time">2020 - Present</div>
+					<h5 class="meta">Current CGPA: 3.47</h5>
                 </div>
                 <!--//item-->
                 <div class="item">
-                    <h4 class="degree">Intermediate Education in Pre-Engineering</h4>
-                    <h5 class="meta">Bahria College Karsaz</h5>
-                    <div class="time">2008 - 2010</div>
+                    <h4 class="degree">Bachelor of Business Administration </br>(BBA in Information Systems and in Management)</h4>
+                    <h5 class="meta">Hong Kong University of Scienece and Technology</h5>
+                    <div class="time">2012 - 2017</div>
+                </div>
+                <!--//item-->
+				<div class="item">
+                    <h4 class="degree">Student Exchange Programme</h4>
+                    <h5 class="meta">The University of Navarra </br>(Spain, Pamplona)</h5>
+                    <div class="time">2014 - 2015</div>
                 </div>
                 <!--//item-->
             </div>
@@ -88,9 +111,9 @@
             <div class="interests-container container-block">
                 <h2 class="container-block-title">Recognitions</h2>
                 <ul class="recognition-list">
-                    <li>Employee of Month​ 10Pearls</li>
-                    <li>Team of the Quarter​ | 10Pearls</li>
-                    <li>Bravo Winner​ | 10Pearls</li>
+                    <li>HKSAR Reaching Out Award</li>
+                    <li>Member of ISACA</li>
+                    <li>Member of Hong Kong Computer Society</li>
                 </ul>
             </div>
             <!--//interests-->
@@ -100,21 +123,32 @@
                     <li><i class="fa fa-plane"></i>Traveling</li>
                     <li><i class="fa fa-gamepad"></i>Gaming</li>
                     <li><i class="fa fa-swimmer"></i>Swimming</li>
-                    <li><i class="fas fa-horse"></i>Horse Riding</li>
+                    <li><i class="fa fa-film"></i>Movies</li>
+					<li><i class="fa fa-book"></i>Reading</li>
+					<li><i class="fa fa-leaf" aria-hidden="true"></i>Cooking</li>
+					<li><i class="fa fa-circle" aria-hidden="true"></i>Soccer</li>
+					<li><i class="fa fa-asterisk" aria-hidden="true"></i>Basketball</li>
+					<li><i class="fa fa-heart" aria-hidden="true"></i>Badminton</li>
                 </ul>
             </div>
             <!--//interests-->
             <div class="languages-container container-block">
                 <h2 class="container-block-title">Languages</h2>
                 <ul class="list-unstyled">
+                    <li>Cantonese
+                        <span class="lang-desc">(Native)</span>
+                    </li>
                     <li>English
                         <span class="lang-desc">(Fluent)</span>
                     </li>
-                    <li>Urdu
-                        <span class="lang-desc">(Native)</span>
+                    <li>Mandarian
+                        <span class="lang-desc">(Fluent)</span>
                     </li>
-                    <li>Gujrati
-                        <span class="lang-desc">(Native)</span>
+					<li>Spanish
+                        <span class="lang-desc">(Basic)</span>
+                    </li>
+					<li>Japanese
+                        <span class="lang-desc">(Basic)</span>
                     </li>
                 </ul>
             </div>
@@ -123,17 +157,18 @@
 
         <div class="main-wrapper">
 
-
             <section class="section summary-section">
                 <h2 class="section-title">
-                    <i class="fa fa-user"></i>Career Profile</h2>
+					
+                    <i class="fa fa-user"></i>Profile</h2>
                 <div class="summary">
-                    <p>I have bachelor’s degree in Computer Science with 5+ years of
-                        experience on client and server side development. Experience in implementing
-                        design pattern in JS
-                        applications. Grasp over build tools like Webpack. Good experience with Single Page Applications
-                        as well as REST API.
-                        <br />Good verbal, communication skills. Proven ability to work independently and as part of a
+                    <p>Current Master student in Computer Science and Bachelor degree holder double major in Information Systems and Management with 5+ years of
+                        experience on IT/digital project management and development. Familiar with System Development Life Cycle (SDLC). Experience in implementing
+                        digital projects in full cycle from planning, user requirements acquicition, design, development, testing, security management, deployment and on-going support.
+                        <br />
+						<br /><b>Project Achievements:</b> HKMA Website Revamp Project, vSAN Server Revamp Digitalization Project, Trade Repository System and website Migration Project and etc... 
+                        <br />
+						<br />Good verbal, communication skills. Proven ability to work independently as well as part of a
                         team. Ability to adapt and keen to
                         learn new technologies.
                 </div>
@@ -148,41 +183,34 @@
                     <li class="items">
                         <div class="duration">
                             <div class="company">
-                                <a href="https://letsumai.com/for-restaurants" target="_blank">UMAI</a>,</div> Kuala
-                            Lumpur, Malaysia
+                                <a href="https://www.hkma.gov.hk/eng" target="_blank">Hong Kong FMI Services Limited / Hong Kong Monetary Authority</div></a>
                         </div>
                         <div class="infowrapper">
                             <div class="info">
                                 <div class="meta">
                                     <div class="upper-row">
-                                        <h3 class="job-title">Lead Frontend Engineer</h3>
-                                        <div class="time">August 2019 - Present</div>
+                                        <h3 class="job-title">System Analyst</h3>
+                                        <div class="time">May 2020 - Present</div>
                                     </div>
                                 </div>
                                 <!--//meta-->
                                 <div class="details">
                                     <ul>
-                                        <li>Primary resposibility was to resolve the technical issues that were being
-                                            faced by teams.
+                                        <li>TRMIS, TRBS and TRINFO Web Application Development, Enhancement, Production planning and support
                                         </li>
                                         <li>
-                                            Deployment and maintaince of application in an agile environment.
+                                            Trade Repository (TR) Release UAT Support including preparation of UAT plans and functional specifications
                                         </li>
                                         <li>
-                                            Striving every week to imporve methodilgies with code reviews, team
-                                            standups, Sprint planning and Retrospective.
+                                            Sever Hardware and Software configuration support, vulnerability assessments, drill and user administration
                                         </li>
                                         <li>
-                                            Designed and developed application in an agile environment utilizing a
-                                            test-driven development approach..
+                                            Manage Private Cloud Project: VMware HCI, vSAN with Veeam Backup solution and Security management
                                         </li>
-                                        <li>Leading a team of a Frontend project and making devs learn how to
-                                            code with standards a/c to my
-                                            understanding.
+                                        <li>Work with multiple teams, external stakeholders and vendors for project delivery
                                         </li>
                                         <li>
-                                            <strong>Technologies​: </strong>Javascript, Postgre, React/Redux, Rails, AWS
-                                            (ELB, Route53, , CloudFront, S3).
+                                            <strong>Key skills and competencies: </strong>IT System Project Management, Application development, Web programming, SDLC, Organizational and planning competence
                                         </li>
                                     </ul>
                                 </div>
@@ -192,69 +220,179 @@
 
                     <li class="items">
                         <div class="duration">
-                            <div class="company"><a href="https://10pearls.com/" target="_blank">10Pearls</a>,</div>
-                            Karachi, Pakistan
+                            <div class="company"><a href="https://www.hkma.gov.hk/eng" target="_blank">Hong Kong Monetary Authority</a></div>
+                            
                         </div>
                         <div class="infowrapper">
                             <div class="info">
                                 <div class="meta">
                                     <div class="upper-row">
-                                        <h3 class="job-title">Senior Software Enginer</h3>
-                                        <div class="time">January 2017 - June 2019</div>
+                                        <h3 class="job-title">Analyst Programmer</h3>
+                                        <div class="time">March 2019 - May 2020</div>
                                     </div>
                                 </div>
                                 <!--//meta-->
                                 <div class="details">
                                     <ul>
                                         <li>
-                                            Designed and coded application in an agile environment utilizing a
-                                            test-driven development approach.
+                                            To coordinate and monitor the website revamp project of HKMA Corporate Website, E-register website, VPR website, Email Alert website, manage CMS, UI/UX design and evaluate web analytics and reports
                                         </li>
-                                        <li>Participate in client meetings and clearify requirement from client.</li>
-                                        <li>Create use cases or scenarios of every requirement with the approval from
-                                            PM/Client before implementation.</li>
-                                        <li>Learned to understand other people's point of you by empathizing with them.
+                                        <li>To provide assistance to digital contents of HKMA Information center, support API migration project, E-complaints system and Security assessments of the above websites and system</li>
+                                        <li>To assist in the planning and execution of UAT and technical system acceptance test of the above projects</li>
+                                        <li>To provide operation support to capture incidents and change requests in the above systems
                                         </li>
-                                        <li>Worked new/emerging Techs like Graphql etc.</li>
-                                        <li>Created our own structure for the customized requirement of the client.</li>
+                                        <li>To handle both external and internal users enquiries and requests of the above systems</li>
+                                        <li>To coordinate and follow project progress with the IT department, IT vendors and OGCIO</li>
+										<li>To assist with the daily update task on website contents</li>
+										
                                         <li>
-                                            <strong>Technologies​: </strong>Javascript, Node JS (Services) +
-                                            TypeScript,, ReactJS, Ruby on Rails, Typescript, Graphql, Redis,
-                                            ElasticSearch, Bash, Golang, MongoDb, Sunspot (solr), Rails Erb templates,
-                                            Opentok, Pubnub
+                                            <strong>Key skills and competencies: </strong>Project Team Management and Organization, Website Development and Analytics, Search Engine Optimization (SEO), UI/UX Planning, UAT and system testing
                                         </li>
                                     </ul>
                                 </div>
+								
+                    <li class="items">
+                        <div class="duration">
+                            <div class="company"><a href="https://www.hkeaa.edu.hk/en/" target="_blank">Hong Kong Examinations and Assessment Authority</a></div>
+                            
+                        </div>
+                        <div class="infowrapper">
+                            <div class="info">
                                 <div class="meta">
                                     <div class="upper-row">
-                                        <h3 class="job-title">Software Enginer</h3>
-                                        <div class="time">June 2014 - December 2016</div>
+                                        <h3 class="job-title">Programmer</h3>
+                                        <div class="time">August 2018 - March 2019</div>
                                     </div>
                                 </div>
                                 <!--//meta-->
                                 <div class="details">
                                     <ul>
                                         <li>
-                                            Designed and coded application in an agile environment.
+                                            Participate in the development, implementation and support to new IT project and various IT application systems
                                         </li>
                                         <li>
-                                            Worked Code quality improvements.
+                                            To analyze business requirements and translate into technical specification
                                         </li>
                                         <li>
-                                            Created and maintained project on frontend.
+                                            To consult and coordinate with users to collect user requirement and provide recommendations
                                         </li>
                                         <li>
-                                            Took initatives and created a end-to-end with high learning curves to
-                                            deliver to client on time.
+                                            To provide support in SDLC (System development life cycle) and quality control
                                         </li>
                                         <li>
-                                            <strong>Technologies​: </strong>Javascript, MySQL, React, Rails, Opentok.
+                                            <strong>Key skills and competencies: </strong>Application development, SDLC, SIT, QC, UAT, organizational and planning competence, interpersonal and communication skills
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </li>
+
+                    <li class="items">
+                        <div class="duration">
+                            <div class="company"><a href="https://www.police.gov.hk/ppp_en/" target="_blank">Hong Kong Police Force</a></div>
+                            
+                        </div>
+                        <div class="infowrapper">
+                            <div class="info">
+                                <div class="meta">
+                                    <div class="upper-row">
+                                        <h3 class="job-title">Probationary Inspector</h3>
+                                        <div class="time">August 2017 - March 2018</div>
+                                    </div>
+                                </div>
+                                <!--//meta-->
+                                <div class="details">
+                                    <ul>
+
+                                        <li>
+                                            <strong>Key skills and competencies: </strong>Leadership, Organizational and planning competence, Interpersonal and communication skills
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>		
+					
+                    <li class="items">
+                        <div class="duration">
+                            <div class="company"><a href="https://www.hkma.gov.hk/eng" target="_blank">Hong Kong Monetary Authority</a></div>
+                            
+                        </div>
+                        <div class="infowrapper">
+                            <div class="info">
+                                <div class="meta">
+                                    <div class="upper-row">
+                                        <h3 class="job-title">Placement (Analyst Programmer)</h3>
+                                        <div class="time">June 2015 - August 2016</div>
+                                    </div>
+                                </div>
+                                <!--//meta-->
+                                <div class="details">
+                                    <ul>
+                                        <li>
+                                            To perform daily update task for the economics and financial data on HKMA and HKGB website
+                                        </li>
+                                        <li>
+                                            To provide assistance to support financial information systems
+                                        </li>
+                                        <li>
+                                            To assist in the planning and execution of user acceptance test and technical system acceptance test
+                                        </li>
+                                        <li>
+                                            To coordinate and follow project progress with the IT department and the IT vendor
+                                        </li>
+                                        <li>
+                                            <strong>Key skills and competencies: </strong>Application development, Web programming, Organizational and planning competence, interpersonal and communication skills
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+					
+					
+                    <li class="items">
+                        <div class="duration">
+                            <div class="company"><a href="https://www.sfc.hk/en/" target="_blank">Securities and Futures Commission</a></div>
+                            
+                        </div>
+                        <div class="infowrapper">
+                            <div class="info">
+                                <div class="meta">
+                                    <div class="upper-row">
+                                        <h3 class="job-title">Summer Intern (Licensing)</h3>
+                                        <div class="time">July 2013 - August 2013</div>
+                                    </div>
+                                </div>
+                                <!--//meta-->
+                                <div class="details">
+                                    <ul>
+                                        <li>
+                                            To perform User-acceptance test for the enhanced function of the Licensing system and Online Portal
+                                        </li>
+                                        <li>
+                                            To communicate with the IT department for the fix and attend weekly meetings with the IT contractor
+                                        </li>
+                                        <li>
+                                            To maintain the public register of licensed persons and ensure that licensees meet the assessment criteria
+                                        </li>
+                                        <li>
+                                            <strong>Key skills and competencies: </strong>Compliance, System development, UAT, Interpersonal and communication skills
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+			
+					
+					
+					
+					
+					
+					
+					
                 </ul>
             </section>
             <div class="skill-tool-wrapper">
@@ -263,103 +401,51 @@
                         <i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
                     <div class="skillset">
                         <div class="skill-item item">
-                            <span class="level-title skills-name">JavaScript</span>
-                            <div class="skills-rating">
-                                <div>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-adjust"></i>
-                                    <i class="far fa-circle"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//item-->
-                        <div class="skill-item item">
-                            <span class="level-title skills-name">Ruby on Rails</span>
-                            <div class="skills-rating">
-                                <div>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fa fa-adjust"></i>
-                                    <i class="far fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//item-->
-                        <!--//item-->
-                        <div class="skill-item item">
-                            <span class="level-title skills-name">React/Redux/Flux</span>
-                            <div class="skills-rating">
-                                <div>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-item item">
-                            <span class="level-title skills-name">MySQL/MongoDB</span>
-                            <div class="skills-rating">
-                                <div>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//item-->
-                        <div class="skill-item item">
-                            <span class="level-title skills-name">Graphql</span>
-                            <div class="skills-rating">
-                                <div>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fa fa-adjust"></i>
-                                    <i class="far fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//item-->
-                        <div class="skill-item item">
-                            <span class="level-title skills-name">Typescript/Angular</span>
-                            <div class="skills-rating">
-                                <div>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//item-->
-                        <div class="skill-item item">
-                            <span class="level-title skills-name">Node.js/Koa/Express</span>
-                            <div class="skills-rating">
-                                <div>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fa fa-adjust"></i>
-                                    <i class="far fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//item-->
-                        <div class="skill-item item">
                             <span class="level-title skills-name">HTML5/CSS</span>
                             <div class="skills-rating">
                                 <div>
                                     <i class="fas fa-circle"></i>
                                     <i class="fas fa-circle"></i>
-                                    <i class="fa fa-adjust"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!--//item-->
+                        <div class="skill-item item">
+                            <span class="level-title skills-name">MySQL</span>
+                            <div class="skills-rating">
+                                <div>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!--//item-->
+                        <!--//item-->
+                        <div class="skill-item item">
+                            <span class="level-title skills-name">PHP</span>
+                            <div class="skills-rating">
+                                <div>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item item">
+                            <span class="level-title skills-name">Javascript</span>
+                            <div class="skills-rating">
+                                <div>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
                                     <i class="far fa-circle"></i>
                                     <i class="far fa-circle"></i>
                                 </div>
@@ -367,7 +453,20 @@
                         </div>
                         <!--//item-->
                         <div class="skill-item item">
-                            <span class="level-title skills-name">Redis/ElasticSearch</span>
+                            <span class="level-title skills-name">Python</span>
+                            <div class="skills-rating">
+                                <div>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!--//item-->
+                        <div class="skill-item item">
+                            <span class="level-title skills-name">Tensorflow</span>
                             <div class="skills-rating">
                                 <div>
                                     <i class="fas fa-circle"></i>
@@ -378,6 +477,33 @@
                                 </div>
                             </div>
                         </div>
+                        <!--//item-->
+                        <div class="skill-item item">
+                            <span class="level-title skills-name">VBA</span>
+                            <div class="skills-rating">
+                                <div>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!--//item-->
+                        <div class="skill-item item">
+                            <span class="level-title skills-name">Batch Scripting</span>
+                            <div class="skills-rating">
+                                <div>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fa fa-adjust"></i>
+                                    <i class="far fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </section>
                 <section class="section skills-section">
@@ -386,46 +512,72 @@
                     <div class="skillset">
                         <!--//item-->
                         <div class="skill-item item">
-                            <span class="level-title skills-name">Webpack/Bundler</span>
+                            <span class="level-title skills-name">Wordpress/CMS</span>
                             <div class="skills-rating">
                                 <div>
                                     <i class="fas fa-circle"></i>
                                     <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//item-->
-                        <div class="skill-item item">
-                            <span class="level-title skills-name">Git/SVN</span>
-                            <div class="skills-rating">
-                                <div>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//item-->
-                        <div class="skill-item item">
-                            <span class="level-title skills-name">Docker/Swarm</span>
-                            <div class="skills-rating">
-                                <div>
                                     <i class="fas fa-circle"></i>
                                     <i class="fas fa-circle"></i>
                                     <i class="fa fa-adjust"></i>
-                                    <i class="far fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!--//item-->
+                        <div class="skill-item item">
+                            <span class="level-title skills-name">Adobe Creative Cloud</span>
+                            <div class="skills-rating">
+                                <div>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
                                     <i class="far fa-circle"></i>
                                 </div>
                             </div>
                         </div>
                         <!--//item-->
                         <div class="skill-item item">
-                            <span class="level-title skills-name">Blockchain</span>
+                            <span class="level-title skills-name">VMware/vSAN</span>
+                            <div class="skills-rating">
+                                <div>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!--//item-->
+                        <div class="skill-item item">
+                            <span class="level-title skills-name">Veeam</span>
+                            <div class="skills-rating">
+                                <div>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!--//item-->
+                        <div class="skill-item item">
+                            <span class="level-title skills-name">MS Office/Visual Studio</span>
+                            <div class="skills-rating">
+                                <div>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!--//item-->
+                        <div class="skill-item item">
+                            <span class="level-title skills-name">Oracle DB</span>
                             <div class="skills-rating">
                                 <div>
                                     <i class="fas fa-circle"></i>
@@ -438,52 +590,26 @@
                         </div>
                         <!--//item-->
                         <div class="skill-item item">
-                            <span class="level-title skills-name">Bash/Batch Scripting</span>
+                            <span class="level-title skills-name">Networking</span>
                             <div class="skills-rating">
                                 <div>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!--//item-->
+                        <div class="skill-item item">
+                            <span class="level-title skills-name">Github/Heroku</span>
+                            <div class="skills-rating">
+                                <div>
+                                    <i class="fas fa-circle"></i>
                                     <i class="fas fa-circle"></i>
                                     <i class="fas fa-circle"></i>
                                     <i class="fa fa-adjust"></i>
-                                    <i class="far fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//item-->
-                        <div class="skill-item item">
-                            <span class="level-title skills-name">Linux/Windows</span>
-                            <div class="skills-rating">
-                                <div>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//item-->
-                        <div class="skill-item item">
-                            <span class="level-title skills-name">Jenkins/CircleCI</span>
-                            <div class="skills-rating">
-                                <div>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fa fa-adjust"></i>
-                                    <i class="far fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//item-->
-                        <div class="skill-item item">
-                            <span class="level-title skills-name">AWS/Heroku</span>
-                            <div class="skills-rating">
-                                <div>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="fas fa-circle"></i>
-                                    <i class="far fa-circle"></i>
-                                    <i class="far fa-circle"></i>
                                     <i class="far fa-circle"></i>
                                 </div>
                             </div>
@@ -497,11 +623,16 @@
         <!--//main-body-->
     </div>
 
+
     <!-- Javascript -->
     <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>
+
+	</div>
+<!-- 	<input type="button" value="Print Acessible Version" id="btnPrint" /> -->
+	</form>
 </body>
 
 </html>
