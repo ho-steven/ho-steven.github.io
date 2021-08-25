@@ -77,6 +77,7 @@ p {
     min-height: 800px;
     color: #fff;
     flex: 2;
+
 }
 
 .sidebar-wrapper a {
@@ -251,10 +252,12 @@ p {
 
 .main-wrapper .section {
     margin-bottom: 20px;
+
 }
 
 .main-wrapper .experiences-section .item {
     margin-bottom: 30px;
+
 }
 
 .main-wrapper .upper-row {
@@ -262,7 +265,9 @@ p {
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
+
+	
 }
 
 .main-wrapper .job-title {
@@ -357,9 +362,9 @@ p {
 }
 
 .timeline>.items>.duration {
-    /* float: left;
-    width: 25%; */
-    flex: 0.5;
+/*     float: left;
+    width: 10%; */
+    flex: 1.145;
     padding-right: 5px;
 }
 
