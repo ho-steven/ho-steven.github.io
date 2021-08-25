@@ -4,6 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WGRPD6TM0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5WGRPD6TM0');
+    </script>
     <title>Steven Ho</title>
     <style>
         html, body {
@@ -111,10 +120,12 @@
     <div id="dialogWrap">
         <div id="dialogWrapCell">
             <div id="mainDialog">
-                <div id="dialogText">This page is password protected.</div>
+                <div id="dialogText">This responsive website does not supoort IE</div>
                 <div id="passArea">
-                    <p id="passwordPrompt">Password</p>
+				    
+                    <p id="passwordPrompt">Please enter the password:</p>
                     <input id="pass" type="password" name="pass" autofocus>
+					<p style="color:blue;">Use Chrome/ Safari / Firefox / Edge for best user experience.</p>
                     <div>
                         <span id="messageWrapper">
                             <span id="invalidPass" class="notifyText">Sorry, please try again.</span>
