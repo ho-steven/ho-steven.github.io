@@ -362,10 +362,10 @@ p {
 }
 
 .timeline>.items>.duration {
-/*     float: left;
-    width: 10%; */
-    flex: 1.145;
-    padding-right: 5px;
+    float: left;
+    width: 10%; 
+    flex: 1.15;
+    padding-right: 6px;
 }
 
 .timeline>.items>.infowrapper {
